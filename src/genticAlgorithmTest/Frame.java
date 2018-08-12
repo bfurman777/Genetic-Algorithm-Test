@@ -9,7 +9,7 @@ public class Frame extends JFrame{
 
 	public Frame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("Genetic Algorithm - " + "Gen 1");
+		setTitle("Genetic Algorithm     -  Gen 1  -       (space to skip generation, q to toggle seeing only the best)");
 		setResizable(false);
 
 		panel = new Panel();
